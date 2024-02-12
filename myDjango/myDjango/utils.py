@@ -1,0 +1,8 @@
+class ResponseDto:
+    def __init__(self,status,message,data):
+        self.status = status
+        self.message = message
+        self.data = data
+
+    def get_data(self):
+        return self.data
